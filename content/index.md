@@ -1,3 +1,3 @@
 ---
-title: Welcome to Ouya's Notes
+title: Welcome
 ---
