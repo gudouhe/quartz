@@ -15,9 +15,9 @@ interface Options {
 }
 
 const defaultOptions = (cfg: GlobalConfiguration): Options => ({
-  title: "Recent Notes",
+  title: "最新笔记",
   limit: 3,
-  linkToMore: false,
+  linkToMore: true
   filter: () => true,
   sort: byDateAndAlphabetical(cfg),
 })
