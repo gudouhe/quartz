@@ -17,7 +17,7 @@ interface Options {
 const defaultOptions = (cfg: GlobalConfiguration): Options => ({
   title: "最新笔记",
   limit: 3,
-  linkToMore: true,
+  linkToMore: "tags/components",
   filter: () => true,
   sort: byDateAndAlphabetical(cfg),
 })
