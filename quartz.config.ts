@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 欧亚的笔记",
+    pageTitle: "罗欧亚",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
